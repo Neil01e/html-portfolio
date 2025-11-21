@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  background: #121212;
+  color: #f2f2f2;
+}
+
+.navbar {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 15px;
+}
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f2f2f2a9;
+}
+
+.nav-L {
+  color: #960c0c;
+  font-size: 2rem;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 1s;
+}
+
+.nav-link:hover {
+  color: #8b0d0d;
+}
+
+section {
+  border-bottom: 1px solid #333;
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+section h1,
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-section img {
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+.yt-button {
+  display: block;
+  text-align: center;
+  padding: 10px 18px;
+  background: #e53935;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: 1.3s;
+}
+
+.yt-button:hover {
+  background: #960c0c;
+}
+
+section ul,
+section ol {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+#contact form {
+  background: #1f1f1f;
+  padding: 25px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background: #e53935;
+}
+
+.larry-footer {
+  background: #0d0d0d;
+  text-align: center;
+  padding: 25px;
+  margin-top: 60px;
+}
+
+.larry-footer a {
+  color: #ff4b4b;
+  text-decoration: none;
+}
+
+.larry-footer a:hover {
+  text-decoration: underline;
+  color: #8b0d0d;
+}
